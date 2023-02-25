@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: url(fondocandymania1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+nav{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-weight:bold;
+    
+    margin: 0px auto;
+    line-height: 2;
+   
+  
+}
+#Tituloo{
+    display: flex;
+    font-size: 22px;
+}
+
+.C{   color: red}
+.A{   color: blueviolet;}
+.N{   color:#FF66C4;}
+.D{   color: #32B427;}
+.Y{    color: orange;}
+.M{    color: red;}
+.A2{    color:#32B427;}
+.N2{    color:#FF66C4;}
+.I{    color: blueviolet;}
+.A3{    color: orange;}
+.Descripcion:hover{color: aqua;}
+
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+    border-radius: 1px 1px 1px 1px black;
+   
+}
+a{
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
